@@ -129,7 +129,7 @@ Step 5: Outputs Produced
 Detailed classification reports and the comparative summary table printed directly to the console.
 
 A high-resolution figure saved to the root directory: confusion_matrices.png.
-
+---
 7. Repository Structure
 Plaintext
 Case-Study-Part-1/
@@ -140,6 +140,7 @@ Case-Study-Part-1/
 ├── Tweets.csv               # Dataset file
 ├── sentiment_analysis.py    # Main processing and model evaluation pipeline
 └── confusion_matrices.png   # Generated comparative confusion matrix plot
+---
 8. Author & Course Metadata
 Author: Jaswinder Kaur
 
