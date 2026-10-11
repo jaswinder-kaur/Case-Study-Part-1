@@ -98,9 +98,9 @@ Evaluated on the independent 20% stratified test set ($n = 2,928$):
 ### Step 1: Clone the Repository
 ```bash
 git clone [https://github.com/jaswinder-kaur/Case-Study-Part-1.git](https://github.com/jaswinder-kaur/Case-Study-Part-1.git)
-cd Case-Study-Part-1
+cd Case-Study-Part-1```
 
-Step 2: Set Up a Virtual Environment
+### Step 2: Set Up a Virtual Environment
 On Windows (PowerShell):
 
 PowerShell
