@@ -102,19 +102,22 @@ cd Case-Study-Part-1
 ```
 
 ### Step 2: Set Up a Virtual Environment
-On Windows (PowerShell):
-```PowerShell
+
+**On Windows (PowerShell):**
+```powershell
 python -m venv .venv
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 .venv\Scripts\Activate.ps1
 ```
-On Windows (Command Prompt):
-```DOS
+
+**On Windows (Command Prompt):**
+```cmd
 python -m venv .venv
 .venv\Scripts\activate.bat
 ```
-On macOS / Linux:
-```Bash
+
+**On macOS / Linux:**
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
