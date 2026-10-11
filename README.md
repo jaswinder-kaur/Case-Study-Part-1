@@ -103,39 +103,46 @@ cd Case-Study-Part-1
 
 ### Step 2: Set Up a Virtual Environment
 On Windows (PowerShell):
-
-PowerShell
+```PowerShell
 python -m venv .venv
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 .venv\Scripts\Activate.ps1
+```
 On Windows (Command Prompt):
-
-DOS
+```DOS
 python -m venv .venv
 .venv\Scripts\activate.bat
+```
 On macOS / Linux:
-
-Bash
+```Bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
 ### Step 3: Install Required Dependencies
-Bash
+```Bash
 pip install -r requirements.txt
+```
 
 ### Step 4: Run the Pipeline
 Ensure Tweets.csv is located in the root project folder, then run:
 
-Bash
+```Bash
 python sentiment_analysis.py
+```
 
 ### Step 5: Outputs Produced
-Detailed classification reports and the comparative summary table printed directly to the console.
+Descriptive dataset statistics and per-carrier sentiment distribution printed to the console.
 
-A high-resolution figure saved to the root directory: confusion_matrices.png.
+Multi-class classification reports (Precision, Recall, F1-Score) for MNB, Logistic Regression, and Linear SVC.
+
+Final comparative benchmark table summarizing performance across all evaluated models.
+
+High-resolution multi-class confusion matrix plot exported to the root directory as confusion_matrices.png.
+
 ---
 ## 7. Repository Structure
-Plaintext
+```Plaintext
 Case-Study-Part-1/
 ├── .gitignore               # Excludes virtual environments, caches, and temporary files
 ├── LICENSE                  # MIT License
@@ -144,6 +151,8 @@ Case-Study-Part-1/
 ├── Tweets.csv               # Dataset file
 ├── sentiment_analysis.py    # Main processing and model evaluation pipeline
 └── confusion_matrices.png   # Generated comparative confusion matrix plot
+```
+
 ---
 ## 8. Author & Course Metadata
 Author: Jaswinder Kaur
