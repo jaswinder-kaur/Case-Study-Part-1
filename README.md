@@ -118,20 +118,23 @@ On macOS / Linux:
 Bash
 python3 -m venv .venv
 source .venv/bin/activate
-Step 3: Install Required Dependencies
+
+### Step 3: Install Required Dependencies
 Bash
 pip install -r requirements.txt
-Step 4: Run the Pipeline
+
+### Step 4: Run the Pipeline
 Ensure Tweets.csv is located in the root project folder, then run:
 
 Bash
 python sentiment_analysis.py
-Step 5: Outputs Produced
+
+### Step 5: Outputs Produced
 Detailed classification reports and the comparative summary table printed directly to the console.
 
 A high-resolution figure saved to the root directory: confusion_matrices.png.
 ---
-7. Repository Structure
+## 7. Repository Structure
 Plaintext
 Case-Study-Part-1/
 ├── .gitignore               # Excludes virtual environments, caches, and temporary files
@@ -142,7 +145,7 @@ Case-Study-Part-1/
 ├── sentiment_analysis.py    # Main processing and model evaluation pipeline
 └── confusion_matrices.png   # Generated comparative confusion matrix plot
 ---
-8. Author & Course Metadata
+## 8. Author & Course Metadata
 Author: Jaswinder Kaur
 
 Program: Ph.D. in Artificial Intelligence
